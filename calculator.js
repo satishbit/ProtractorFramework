@@ -5,7 +5,7 @@ describe('Demo Calculator Test', function () {
     it('addition Test', function () {
 
         homepage.get("https://juliemr.github.io/protractor-demo/");
-        homepage.enterFirstNumber('5');
+        homepage.enterFirstNumber('20');
         homepage.enterSecondNumber('10');
         homepage.clickGo();
         homepage.verifyResult('15');
